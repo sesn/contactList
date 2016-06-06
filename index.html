@@ -1,0 +1,183 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Contact List</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/font-awesome.css" />
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-6 col-centered mainContainer">
+                    <!-- HEADER STARTS -->
+                    <nav class="navbar">
+                        <div class="container-fluid">
+                            <div class="row marginZero">
+                                <div class="col-xs-6 col-sm-6">
+                                    <div class="navbar-header">
+                                        <img src="img/profile.jpg" class="img-circle img-responsive float-left" alt="David Taylor">
+                                        <div class="dropdown float-left">
+                                            <div class="dropdown-toggle" data-toggle="dropdown">
+                                                <div class="">
+                                                <h4>David Taylor<span class="caret"></span></h4>
+                                                </div>
+                                            </div>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="javascript:;">Profile</a></li>
+                                                <li><a href="javascript:;">CSS</a></li>
+                                                <li><a href="javascript:;">Logout</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-6 col-sm-6">
+                                    <ul class="nav navbar-nav pull-right">
+                                      <li class="active"><a href="#"><i class="fa fa-comments" aria-hidden="true"></i></a></li>
+                                      <li><a href="#"><i class="fa fa-globe" aria-hidden="true"></i><span class="notification count">10</span></a></li>
+                                      <li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <!-- HEADER ENDS -->
+
+                    <!-- TAB SECTION STARTS -->
+                    <div class="row marginZero">
+                        <div class="col-xs-12 padLeftRightZero">
+                            <ul class="nav nav-tabs fullWidthTab" id="contactTab">
+                                <li class="active"><a data-target="#all" data-toggle="tab">All</a></li>
+                                <li><a data-target="#athlete" data-toggle="tab">Athletes</a></li>
+                                <li><a data-target="#fan" data-toggle="tab">Fan</a></li>
+                                <li><a data-target="#team" data-toggle="tab">Team</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row contentContainer">
+                        <div class="col-xs-12 ">
+                            <div class="searchWrap inputWithImg">
+                                <i class="fa fa-search iconImg" aria-hidden="true"></i>
+                                <input class="form-control" placeholder="Search for friends..."/>
+                                <i class="fa fa-refresh iconRightImg" aria-hidden="true"></i>
+                            </div>
+
+                            <div class="tab-content">
+                			  <div class="tab-pane active" id="all">
+                                    <div class="table-responsive clUserContainer">
+                                        <table class="table-striped" align="center">
+                                            <tr>
+                                                <td>
+                                                    <div class="hexagon"><i class="fa fa-thumbs-up iconImg" aria-hidden="true"></i></div>
+                                                </td>
+                                                <td>
+                                                    <img src="img/profile1.png" class="img-circle img-responsive float-left" alt="David Taylor">
+                                                </td>
+                                                <td>
+                                                    <h4 class="name">Calyton Fox</h4>
+                                                    <div class="details">
+                                                        <span><i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
+                                                        <span class="address">St Louis</span>
+                                                        <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                                                        <span class="category">Student</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <label class="customCheckboxWrap">
+                                                        <input type="checkbox" name="clUser[]" value="Calyton Fox"/>
+                                                        <div class="customCheckbox"><i class="fa fa-plus" aria-hidden="true"></i></div>
+                                                    </label>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <div class="hexagon"><i class="fa fa-thumbs-up iconImg" aria-hidden="true"></i></div>
+                                                </td>
+                                                <td>
+                                                    <img src="img/profile1.png" class="img-circle img-responsive float-left" alt="David Taylor">
+                                                </td>
+                                                <td>
+                                                    <h4 class="name">Calyton Fox</h4>
+                                                    <div class="details">
+                                                        <span><i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
+                                                        <span class="address">St Louis</span>
+                                                        <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                                                        <span class="category">Student</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <label class="customCheckboxWrap">
+                                                        <input type="checkbox" name="clUser[]" value="Calyton Fox"/>
+                                                        <div class="customCheckbox"><i class="fa fa-plus" aria-hidden="true"></i></div>
+                                                    </label>
+                                                </td>
+                                            </tr>
+
+                                        </table>
+                                    </div>
+
+                			  </div>
+                			  <div class="tab-pane" id="athlete">
+                                  <div class="table-responsive clUserContainer">
+                                      <table class="table-striped" align="center">
+
+                                      </table>
+                                  </div>
+                			  </div>
+                			  <div class="tab-pane" id="fan">
+                                  <div class="table-responsive clUserContainer">
+                                      <table class="table-striped" align="center">
+
+                                      </table>
+                                  </div>
+                			  </div>
+                			  <div class="tab-pane" id="team">
+                                  <div class="table-responsive clUserContainer">
+                                      <table class="table-striped" align="center">
+
+                                      </table>
+                                  </div>
+                			  </div>
+                			</div>
+                        </div>
+                    </div>
+
+
+                    <!-- TAB SECTION ENDS -->
+
+            </div>
+        </div>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <!-- <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+    </script> -->
+    </body>
+</html>

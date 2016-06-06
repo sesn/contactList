@@ -1,0 +1,119 @@
+{
+  "userName" : "David Taylor",
+  "notification": "10",
+  "contactList": [
+    {
+      "contactName": "Clayton Fox",
+      "profileImgUrl": "",
+      "location" : "Paris",
+      "category" : "Fans",
+      "designation" : "Student",
+      "hexagonImage" : "thumbs-up"
+    },
+    {
+      "contactName": "Carlos",
+      "profileImgUrl": "",
+      "location" : "Paris",
+      "category" : "team",
+      "designation" : "Student",
+      "hexagonImage" : "camera"
+    },
+    {
+      "contactName": "Tom Brady",
+      "profileImgUrl": "",
+      "location" : "Paris",
+      "category" : "Athletes",
+      "designation" : "Student",
+      "hexagonImage" : "car"
+    },
+    {
+      "contactName": "Kate1",
+      "profileImgUrl": "",
+      "location" : "Paris",
+      "category" : "Fans",
+      "designation" : "Student",
+      "hexagonImage" : "book"
+    },
+    {
+      "contactName": "Kate2 Fox",
+      "profileImgUrl": "",
+      "location" : "Paris",
+      "category" : "Athletes",
+      "designation" : "Student",
+      "hexagonImage" : "building-o"
+    },
+    {
+      "contactName": "Kate3 Fox",
+      "profileImgUrl": "",
+      "location" : "Paris",
+      "category" : "team",
+      "designation" : "Student",
+      "hexagonImage" : "camera-retro"
+    },
+    {
+      "contactName": "Ahtlete 4",
+      "profileImgUrl": "",
+      "location" : "Paris",
+      "category" : "Athletes",
+      "designation" : "Student",
+      "hexagonImage" : "book"
+    },
+    {
+      "contactName": "Kate1",
+      "profileImgUrl": "",
+      "location" : "Paris",
+      "category" : "Fans",
+      "designation" : "Student",
+      "hexagonImage" : "book"
+    },
+    {
+      "contactName": "Athlete 1",
+      "profileImgUrl": "",
+      "location" : "Paris",
+      "category" : "Athletes",
+      "designation" : "Student",
+      "hexagonImage" : "building-o"
+    },
+    {
+      "contactName": "Kate3 Fox",
+      "profileImgUrl": "",
+      "location" : "Paris",
+      "category" : "Fans",
+      "designation" : "Student",
+      "hexagonImage" : "camera-retro"
+    },
+    {
+      "contactName": "Athlete2",
+      "profileImgUrl": "",
+      "location" : "Paris",
+      "category" : "Athletes",
+      "designation" : "Student",
+      "hexagonImage" : "book"
+    },
+    {
+      "contactName": "Kate3 Fox",
+      "profileImgUrl": "",
+      "location" : "Paris",
+      "category" : "team",
+      "designation" : "Student",
+      "hexagonImage" : "camera-retro"
+    },
+    {
+      "contactName": "Clayton Fox",
+      "profileImgUrl": "",
+      "location" : "Paris",
+      "category" : "team",
+      "designation" : "Student",
+      "hexagonImage" : "book"
+    },
+    {
+      "contactName": "Clayton Fox",
+      "profileImgUrl": "",
+      "location" : "Paris",
+      "category" : "fan",
+      "designation" : "Student",
+      "hexagonImage" : "book"
+    }
+
+  ]
+}
