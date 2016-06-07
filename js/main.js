@@ -34,8 +34,9 @@ $(document).ready(function(){
    var $tabName = $(event.target).html().toLowerCase();
    getData("json/data.json",event.target,$tabName);
  });
+
  /*Trigger the click on load*/
- $('#contactTab a').trigger('click');
+ $('#contactTab a[data-toggle="tab"]:first').trigger("show.bs.tab");
 
  dropdownWidth();
 
